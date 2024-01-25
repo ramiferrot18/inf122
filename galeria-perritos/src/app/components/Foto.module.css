@@ -1,0 +1,10 @@
+.box {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.box img {
+    border-radius: 50%;
+    object-fit: cover;
+}
